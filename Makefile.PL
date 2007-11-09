@@ -6,8 +6,7 @@ WriteMakefile(
     'VERSION_FROM' => 'viaKLIX.pm', # finds $VERSION
     'AUTHOR'       => 'Jeff Finucane <jeff@cmh.net>',
     'PREREQ_PM'    => { 
-                        'Business::OnlinePayment' => 3,
+                        'Business::OnlinePayment' => 3.00_06,
                         'Business::OnlinePayment::HTTPS' => 0.04,
-                        'Business::CreditCard' => 0.27,
                       },
 );

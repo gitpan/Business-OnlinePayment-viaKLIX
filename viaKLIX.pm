@@ -6,7 +6,7 @@ use Carp qw(carp croak);
 
 use base qw(Business::OnlinePayment::HTTPS);
 
-$VERSION = '0.01';
+$VERSION = '0.02';
 $VERSION = eval $VERSION;
 $DEBUG   = 0;
 
